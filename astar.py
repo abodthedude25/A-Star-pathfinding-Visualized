@@ -103,7 +103,6 @@ def reconstruct_path(came_from, current, draw):
 		current.make_path()
 		draw()
 
-
 def algorithm(draw, grid, start, end):
 	count = 0
 	open_set = PriorityQueue()
